@@ -2161,4 +2161,9 @@ textarea:focus {
 @media (min-width: 991px) and (max-width: 1199px){
 	.wd_story_covers_box_right{width:410px;}
 }
+@media only screen and (max-width: 1280px) {
+    .wd_slider_wrapper {
+        background: url(../images/header/slider.png); /* 小於1280px的背景圖片 */
+    }
+}
 /*-- Responsive css End --*/
