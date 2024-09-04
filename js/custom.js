@@ -44,7 +44,7 @@
 	// Menu js for Position fixed
 	$(window).scroll(function(){
 		var window_top = $(window).scrollTop() + 1; 
-		if (window_top > 500) {
+		if (window_top > 10) {
 			$('.wd_header_wrapper').addClass('menu_fixed animated fadeInDown');
 		} else {
 			$('.wd_header_wrapper').removeClass('menu_fixed animated fadeInDown');
